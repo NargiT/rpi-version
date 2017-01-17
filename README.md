@@ -1,12 +1,20 @@
 # rpi-version
 
-Output model version of RPI is currently running
+Output model version of RPI that is currently running (sources: http://elinux.org/RPi_HardwareHistory)
 
 If there are any errors, please submit an issue.
 
-sources : http://elinux.org/RPi_HardwareHistory
-
-# Docker
+# Standalone
+Run script with python 2.7
 ```
-docker build -t nargit/rpi-version:latest -t nargit/rpi-version:x.y .
+$ python rpi-version.py
+version : 2 Model B
+   date : Q1 2015
+```
+# Docker
+Run image
+```
+$ docker run -it --rm nargit/rpi-version
+version : 2 Model B
+   date : Q1 2015
 ```
