@@ -1,5 +1,5 @@
 FROM hypriot/rpi-python
-MAINTAINER Tigran Tch. <nargitinthenight@gmail.com>
+LABEL maintainer="nargitinthenight@gmail.com"
 
 ADD rpi.json .
 ADD rpi-version.py .
