@@ -10,7 +10,7 @@ script:
   # test image
   - docker run nargit/rpi-version
   # push image
-  - ./deploy.bash
+  - ./deploy.sh
 on:
   branch: master
   
