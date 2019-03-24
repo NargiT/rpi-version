@@ -6,5 +6,5 @@ if [ $TRAVIS_BRANCH = "master" ] && [ $TRAVIS_PULL_REQUEST = "false" ]; then
     TAG=$(grep "ENV RPI_VERSION" Dockerfile | awk 'NF>1{print $NF}')
     docker tag "nargit/rpi-version nargit/rpi-version:$TAG"
     docker push "nargit/rpi-version:$TAG"
-    docker push nargit/rpi-version
+    docker push "nargit/rpi-version:latest"
 fi

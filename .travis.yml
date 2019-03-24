@@ -1,13 +1,9 @@
 sudo: required
 services:
-  - docker
+- docker
 language: bash
-script: 
-  # prepare qemu
-  - docker run --rm --privileged multiarch/qemu-user-static:register --reset
-  # build image
-  - docker build -t nargit/rpi-version .
-  # test image
-  - docker run nargit/rpi-version
-  # push image
-  - ./deploy.bash  
+script:
+- docker run --rm --privileged multiarch/qemu-user-static:register --reset
+- docker build -t nargit/rpi-version .
+- docker run nargit/rpi-version
+- "./deploy.bash"
