@@ -1,7 +1,7 @@
 sudo: required
 services:
   - docker
-language: minimal
+language: bash
 script: 
   # prepare qemu
   - docker run --rm --privileged multiarch/qemu-user-static:register --reset
