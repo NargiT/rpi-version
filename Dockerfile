@@ -5,5 +5,5 @@ ADD rpi.json .
 ADD rpi-version.py .
 RUN chmod +x rpi-version.py
 
-ENV RPI_VERSION 1.0.0
+ENV RPI_VERSION 1.1.0
 ENTRYPOINT ["python", "rpi-version.py"]
