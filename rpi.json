@@ -116,6 +116,11 @@
       "version": "A+"
     },
     {
+      "revision": "900032",
+      "release_date": "Q2 2016?",
+      "version": "B+"
+    },
+    {
       "revision": "900092",
       "release_date": "Q4 2015",
       "version": "Zero"
@@ -136,6 +141,11 @@
       "version": "3 Model B"
     },
     {
+      "revision": "a020a0",
+      "release_date": "Q1 2017",
+      "version": "Compute Module 3 (and CM3 Lite)"
+    },
+    {
       "revision": "a22082",
       "release_date": "Q1 2016",
       "version": "3 Model B"
@@ -154,6 +164,26 @@
       "revision" : "9020e0",
       "release_date" : "Q4 2018",
       "version" : "3 Model A+"
+    },
+    {
+      "revision" : "a02100",
+      "release_date" : "Q1 2019",
+      "version" : "Compute Module 3+"
+    },
+    {
+      "revision" : "a03111",
+      "release_date" : "Q2 2019",
+      "version" : "4 Model B"
+    },
+    {
+      "revision" : "b03111",
+      "release_date" : "Q2 2019",
+      "version" : "4 Model B"
+    },
+    {
+      "revision" : "c03111",
+      "release_date" : "Q2 2019",
+      "version" : "4 Model B"
     }
   ]
 }
