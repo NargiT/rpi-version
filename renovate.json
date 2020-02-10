@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "reviewers": [
+    "NargiT"
+  ],
+  "prCreation": "not-pending",
+  "rebaseStalePrs": true,
+  "rebaseConflictedPrs": true,
+  "patch": {
+    "automerge": true,
+    "automergeType": "pr",
+    "requiredStatusChecks": [
+      "workflow"
+    ]
+  }
+}

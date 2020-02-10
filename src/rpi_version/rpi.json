@@ -1,0 +1,187 @@
+{
+  "Beta": {
+    "revision": "Beta",
+    "release_date": "Q1 2012",
+    "version": "B (Beta)"
+  },
+  "0002": {
+    "revision": "0002",
+    "release_date": "Q1 2012",
+    "version": "B"
+  },
+  "0003": {
+    "revision": "0003",
+    "release_date": "Q3 2012",
+    "version": "B (ECN0001)"
+  },
+  "0004": {
+    "revision": "0004",
+    "release_date": "Q3 2012",
+    "version": "B"
+  },
+  "0005": {
+    "revision": "0005",
+    "release_date": "Q4 2012",
+    "version": "B"
+  },
+  "0006": {
+    "revision": "0006",
+    "release_date": "Q4 2012",
+    "version": "B"
+  },
+  "0007": {
+    "revision": "0007",
+    "release_date": "Q1 2013",
+    "version": "A"
+  },
+  "0008": {
+    "revision": "0008",
+    "release_date": "Q1 2013",
+    "version": "A"
+  },
+  "0009": {
+    "revision": "0009",
+    "release_date": "Q1 2013",
+    "version": "A"
+  },
+  "000d": {
+    "revision": "000d",
+    "release_date": "Q4 2012",
+    "version": "B"
+  },
+  "000e": {
+    "revision": "000e",
+    "release_date": "Q4 2012",
+    "version": "B"
+  },
+  "000f": {
+    "revision": "000f",
+    "release_date": "Q4 2012",
+    "version": "B"
+  },
+  "0010": {
+    "revision": "0010",
+    "release_date": "Q3 2014",
+    "version": "B+"
+  },
+  "0011": {
+    "revision": "0011",
+    "release_date": "Q2 2014",
+    "version": "Compute Module"
+  },
+  "0012": {
+    "revision": "0012",
+    "release_date": "Q4 2014",
+    "version": "A+"
+  },
+  "0013": {
+    "revision": "0013",
+    "release_date": "Q1 2015",
+    "version": "B+"
+  },
+  "0014": {
+    "revision": "0014",
+    "release_date": "Q2 2014",
+    "version": "Compute Module"
+  },
+  "0015": {
+    "revision": "0015",
+    "release_date": "?",
+    "version": "A+"
+  },
+  "a01040": {
+    "revision": "a01040",
+    "release_date": "Unknown",
+    "version": "2 Model B"
+  },
+  "a01041": {
+    "revision": "a01041",
+    "release_date": "Q1 2015",
+    "version": "2 Model B"
+  },
+  "a21041": {
+    "revision": "a21041",
+    "release_date": "Q1 2015",
+    "version": "2 Model B"
+  },
+  "a22042": {
+    "revision": "a22042",
+    "release_date": "Q3 2016",
+    "version": "2 Model B (with BCM2837)"
+  },
+  "900021": {
+    "revision": "900021",
+    "release_date": "?",
+    "version": "A+"
+  },
+  "900032": {
+    "revision": "900032",
+    "release_date": "Q2 2016?",
+    "version": "B+"
+  },
+  "900092": {
+    "revision": "900092",
+    "release_date": "Q4 2015",
+    "version": "Zero"
+  },
+  "900093": {
+    "revision": "900093",
+    "release_date": "Q2 2016",
+    "version": "Zero"
+  },
+  "920093": {
+    "revision": "920093",
+    "release_date": "Q4 2016?",
+    "version": "Zero"
+  },
+  "a02082": {
+    "revision": "a02082",
+    "release_date": "Q1 2016",
+    "version": "3 Model B"
+  },
+  "a020a0": {
+    "revision": "a020a0",
+    "release_date": "Q1 2017",
+    "version": "Compute Module 3 (and CM3 Lite)"
+  },
+  "a22082": {
+    "revision": "a22082",
+    "release_date": "Q1 2016",
+    "version": "3 Model B"
+  },
+  "a32082": {
+    "revision": "a32082",
+    "release_date": "Q4 2016",
+    "version": "3 Model B"
+  },
+  "a020d3": {
+    "revision": "a020d3",
+    "release_date": "Q1 2018",
+    "version": "3 Model B+"
+  },
+  "9020e0": {
+    "revision": "9020e0",
+    "release_date": "Q4 2018",
+    "version": "3 Model A+"
+  },
+  "a02100": {
+    "revision": "a02100",
+    "release_date": "Q1 2019",
+    "version": "Compute Module 3+"
+  },
+  "a03111": {
+    "revision": "a03111",
+    "release_date": "Q2 2019",
+    "version": "4 Model B"
+  },
+  "b03111": {
+    "revision": "b03111",
+    "release_date": "Q2 2019",
+    "version": "4 Model B"
+  },
+  "c03111": {
+    "revision": "c03111",
+    "release_date": "Q2 2019",
+    "version": "4 Model B"
+  }
+}
