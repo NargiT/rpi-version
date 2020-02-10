@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "rpi-version"
-version = "0.1.0"
+name = "rpi_version"
+version = "1.1.1"
 description = "Gives the exact version of your rpi"
 authors = ["Tigran Tch <nargitinthenight@gmail.com>"]
 
