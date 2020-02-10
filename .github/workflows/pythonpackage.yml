@@ -26,6 +26,6 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install Tox and any other packages
-      run: pip install tox
+      run: pip install tox poetry
     - name: Run Tox
       run: tox -e py  # Run tox using the version of Python in `PATH
