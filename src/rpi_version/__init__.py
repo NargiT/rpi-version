@@ -1,1 +1,1 @@
-from rpi_version.rpi_version import Matcher
+from .rpi_version import Matcher
