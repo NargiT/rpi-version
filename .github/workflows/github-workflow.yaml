@@ -1,4 +1,4 @@
-name: Python
+name: Tests
 
 on:
   push:
@@ -11,13 +11,12 @@ on:
   schedule:
   - cron: 0 2 * * 1-5
 
-jobs:
-  build:
-
+jobs :
+  Linux:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-16.04, ubuntu-18.04, macos-latest, windows-latest]
+        os: [ubuntu-16.04, ubuntu-18.04]
         python-version: [2.7, 3.5, 3.6, 3.7, 3.8]
     steps:
     - uses: actions/checkout@v2
