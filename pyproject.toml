@@ -5,12 +5,12 @@ description = "Gives the exact version of your rpi"
 authors = ["Tigran Tch <nargitinthenight@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "~2.7 || ^3.5"
-requests = {version = "^2", python = "~2.7 || ^3.5"}
-lxml = {version = "^4", python = "~2.7 || ^3.5"}
+python = "^3.5"
+requests = "~2"
+lxml = "~4"
 
 [tool.poetry.dev-dependencies]
-pytest = {version = "^4", python = "~2.7 || ^3.5"}
+pytest = "~5"
 
 
 [build-system]
