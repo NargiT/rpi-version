@@ -3,11 +3,12 @@ name: Tests
 on: ["push", "pull_request"]
 
 jobs:
-  Linux:
+  Multi-OS-Build:
     runs-on: ${{ matrix.os }}
     strategy:
+      max-parallel: 3
       matrix:
-        os: [ubuntu-16.04, ubuntu-18.04]
+        os: [ubuntu-18.04, macos-10.14, windows-2019]
         python-version: [3.6, 3.7, 3.8]
     steps:
     - uses: actions/checkout@v2
