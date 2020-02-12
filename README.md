@@ -1,6 +1,6 @@
 # rpi-version
 
-[![Build Status](https://travis-ci.org/NargiT/rpi-version.svg?branch=master)](https://travis-ci.org/NargiT/rpi-version)
+![Tests](https://github.com/NargiT/rpi-version/workflows/Tests/badge.svg?event=push)
 
 Output model version of RPI that is currently running.
 sources: [wiki](http://elinux.org/RPi_HardwareHistory)
@@ -9,7 +9,7 @@ If there are any errors, please submit an issue.
 
 ## Standalone
 
-Run script with python 2.7
+Run script
 
 ```sh
 $ python rpi-version.py
